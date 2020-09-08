@@ -1,5 +1,5 @@
 <?php session_start();
-if(!isset($_SESSION['login'])){
+if(!isset($_SESSION['login'])||$_SESSION['type'][0]!='admin'){
     header('Location: ..\..\index.php');
 }
 ?>

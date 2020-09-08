@@ -10,7 +10,7 @@
         <div class="sitebar">
             <!--Здесь вложено изображение-->
         </div>
-        <a href="http://siteproject/">ProjectsVyatSU</a>
+        <a class='HeadNameSite' href="http://siteproject/">ProjectsVyatSU</a>
         <?php
         if(isset($_SESSION['login'])){
             $name = $_SESSION['login'][0];

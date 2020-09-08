@@ -185,6 +185,7 @@ textarea{
 @media(max-width: 966px){
     header{
         height: 100px;
+        width: 150%;
     }
     .account{
         top: 65px;
@@ -192,8 +193,33 @@ textarea{
         left: 60%;
         margin: auto;
     }
-    main{
+    .SiteProject{
         width: 100%;
-        left: 0px;
+    }
+    .HeadNameSite{
+        left: 100px;
+        position: absolute;
+    }
+    .sitebar{
+        left:5%;
+    }
+}
+@media(max-width: 410px){
+    .HeadNameSite{
+        top: 70px;
+        left: 20px;
+        position: absolute;
+    }
+    .sitebar{
+        display: block;
+        left:5%;
+    }
+    .account{
+        top: 140px;
+        left: 200px;
+    }
+    header{
+        width: 150%;
+        height: 200px;
     }
 }
